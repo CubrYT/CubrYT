@@ -1,4 +1,4 @@
-﻿; /[V1.0.0]\
+; /[V1.0.0]\
 
 #Requires AutoHotkey v2.0
 
@@ -23,9 +23,14 @@ FoldersToCheck := [
 
 ModulesToDownload := Map(
     "EasyUI.ahk", "https://raw.githubusercontent.com/SimplyJustBased/MacroShenanigans/main/Modules/EasyUI.ahk",
-    "_JXON.ahk", "https://raw.githubusercontent.com/SimplyJustBased/MacroShenanigans/main/Modules/_JXON.ahk",
-    "Router.ahk", "https://raw.githubusercontent.com/SimplyJustBased/MacroShenanigans/main/Modules/Router.ahk",
-    "UWBOCRLib.ahk", "https://raw.githubusercontent.com/SimplyJustBased/MacroShenanigans/main/Modules/UWBOCRLib.ahk"
+    "JXON.ahk", "https://raw.githubusercontent.com/waktool/RankQuests/main/Lib/JXON.ahk",
+    "DarkMode.ahk", "https://raw.githubusercontent.com/waktool/RankQuests/main/Lib/DarkMode.ahk",
+    "Pin.ahk", "https://raw.githubusercontent.com/waktool/RankQuests/main/Lib/Pin.ahk",
+	"TextRender.ahk", "https://raw.githubusercontent.com/waktool/RankQuests/main/Lib/TextRender.ahk",
+	"OCR.ahk", "https://raw.githubusercontent.com/waktool/RankQuests/main/Lib/OCR.ahk",
+	"README.md", "https://raw.githubusercontent.com/waktool/RankQuests/main/README.md",
+	"Settings.ini", "https://raw.githubusercontent.com/waktool/RankQuests/main/Settings.ini"
+
 )
 
 FontsDownload := Map(
